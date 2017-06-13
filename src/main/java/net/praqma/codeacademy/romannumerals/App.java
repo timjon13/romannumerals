@@ -14,7 +14,9 @@ public class App
     	String out;
     	if(number==1)
     		out="I";
-    	else
+    	else if (number==2)
+		out="II";
+	else
     		out=""+number;
 		return out;
     }
